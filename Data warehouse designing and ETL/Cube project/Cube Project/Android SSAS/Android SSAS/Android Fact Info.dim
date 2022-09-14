@@ -1,0 +1,265 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="33a5928e-cc6f-4143-9c3c-fcce517d491d" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Android Fact Info</ID>
+  <Name>Android Fact Info</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-2110" scrolltop="-4471" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="7276" y="13785" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Android_Fact_Info" left="20" top="0" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="3016" height="4842" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000c80b0000ea120000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Android_Fact_Info" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-2110</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-4471</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>20</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="9a7e591c-2f42-483e-ba5b-01663f0c4683">
+    <DataSourceViewID>dsv_Android_DWH</DataSourceViewID>
+  </Source>
+  <ErrorConfiguration dwd:design-time-name="fd04e603-1d58-4927-b94b-112e43426c4f">
+    <KeyNotFound>ReportAndStop</KeyNotFound>
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+    <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Attributes>
+    <Attribute dwd:design-time-name="82b6bf0f-adb9-43b3-9fcf-bdf9ebe807f6">
+      <ID>Fact ID</ID>
+      <Name>Fact ID</Name>
+      <Usage>Key</Usage>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="7a45f650-ad56-49cb-9f27-f88c110649e3">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="51974633-e5c3-4857-9db4-b5c95b26b334">
+            <TableID>dbo_Android_Fact_Info</TableID>
+            <ColumnID>Fact_ID</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="9d2afa0b-1b4c-44de-820f-eb032831cf04">
+          <AttributeID>Date Key</AttributeID>
+          <Name>Date Key</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="dbd1dc40-e0a8-4cd1-80a0-2348dcf2a02f">
+          <AttributeID>App ID</AttributeID>
+          <Name>App ID</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="f50a0c9c-c4a7-4daf-9d02-a5f214e0392a">
+          <AttributeID>App Price ID</AttributeID>
+          <Name>App Price ID</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="4745cced-a1ba-4c13-8d24-d51dabeebc1a">
+          <AttributeID>DWN Info ID</AttributeID>
+          <Name>DWN Info ID</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="5ac48df4-2602-4927-9486-549ad1d2d016">
+          <AttributeID>Reviews</AttributeID>
+          <Name>Reviews</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="86667e07-4c43-4c5b-84fd-4d6f4c3f2a59">
+          <AttributeID>Downloads</AttributeID>
+          <Name>Downloads</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="58228d1a-2e78-4def-abde-ff3122e5235a">
+          <AttributeID>App Name</AttributeID>
+          <Name>App Name</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="5092b169-5d7a-4588-ac31-affc967cc031">
+          <AttributeID>Rating</AttributeID>
+          <Name>Rating</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="8c97ec48-a9f4-4785-ba18-95550e330f18">
+      <ID>Date Key</ID>
+      <Name>Date Key</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="872a2d38-edeb-4f90-804a-714710e6bdb9">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="c29b4e08-e3a2-4fb2-ae9a-9cf05d901cec">
+            <TableID>dbo_Android_Fact_Info</TableID>
+            <ColumnID>Date_Key</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="ba8b72da-d1ea-4e6c-8347-57c23a00dd6b">
+      <ID>App ID</ID>
+      <Name>App ID</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="392ffb03-fd8e-45de-924a-5eff51089835">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="a1b5c704-158a-45c8-ab21-b68e9716e3be">
+            <TableID>dbo_Android_Fact_Info</TableID>
+            <ColumnID>App_ID</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="f9766197-d58f-459b-9e68-944bfc1c0a29">
+      <ID>App Price ID</ID>
+      <Name>App Price ID</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="5764a5b7-449a-4a08-9552-1ff789979de4">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="1f531b6c-55ba-4d44-a3ac-fa5aff76ed43">
+            <TableID>dbo_Android_Fact_Info</TableID>
+            <ColumnID>App_Price_ID</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="74cd9b26-27a5-442b-9134-0ea027b0d2ef">
+      <ID>DWN Info ID</ID>
+      <Name>DWN Info ID</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="40f34a1e-a779-4c20-861c-c6e4afd31aeb">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="66933196-b98d-4e62-89bd-d7fc5f3ce48e">
+            <TableID>dbo_Android_Fact_Info</TableID>
+            <ColumnID>DWN_Info_ID</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="64aca7fe-9cca-40e0-b810-58537063f330">
+      <ID>Reviews</ID>
+      <Name>Reviews</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="6d26094e-f816-471f-ba6a-d11704d0e35b">
+          <DataType>WChar</DataType>
+          <DataSize>255</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="6ee8598a-d968-4f47-b87f-1f1aac57d019">
+            <TableID>dbo_Android_Fact_Info</TableID>
+            <ColumnID>Reviews</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="093f9824-111d-4421-8a60-2e9746f860aa">
+      <ID>Downloads</ID>
+      <Name>Downloads</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="c330f97f-cfec-4374-87b7-90b5fbcc2ecc">
+          <DataType>Double</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="70a597e5-3602-4e96-88df-1e5fe49d4170">
+            <TableID>dbo_Android_Fact_Info</TableID>
+            <ColumnID>Downloads</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="aaa135d0-55c6-40b0-a0f8-33f55f36884d">
+      <ID>App Name</ID>
+      <Name>App Name</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="f42c6f05-45a0-4952-b262-dd8645344dd4">
+          <DataType>WChar</DataType>
+          <DataSize>255</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="5252a695-afa7-4512-ae0e-9709fe0e43f2">
+            <TableID>dbo_Android_Fact_Info</TableID>
+            <ColumnID>App_Name</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="4f8deb7a-d0b8-480a-a046-372586fbbe3f">
+      <ID>Rating</ID>
+      <Name>Rating</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="ebd6c64a-0fa0-40ca-b8d2-e19f9330d39c">
+          <DataType>WChar</DataType>
+          <DataSize>255</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="1e95079b-7ee6-4c8f-8954-f8040e2783e8">
+            <TableID>dbo_Android_Fact_Info</TableID>
+            <ColumnID>Rating</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+  </Attributes>
+  <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
+</Dimension>

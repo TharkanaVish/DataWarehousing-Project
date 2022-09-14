@@ -1,0 +1,89 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>Android SSAS</Database>
+    <Server>localhost</Server>
+    <ConnectionString>Data Source=localhost;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>DoNotProcess</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>2cj22iGE+FpDSaM2xgAAZcl2k2I=6/16/2021 2:43:02 PM6/16/2021 2:43:02 PM</TimeStamp>
+        <ID>
+          <String>datasource_Android_DWH</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>JvE3FAAxG8sI7bPhSI8NbKxgs7o=6/16/2021 2:59:14 PM6/16/2021 2:44:15 PM</TimeStamp>
+        <ID>
+          <String>dsv_Android_DWH</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>vDz6rowFUZSpOCl6k47i9C+9qiw=6/16/2021 8:16:01 PM6/16/2021 2:59:13 PM</TimeStamp>
+        <ID>
+          <String>Date Dimension</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>3AUTWC7PdNQ+zZLfgDJA735yluc=6/16/2021 3:05:09 PM6/16/2021 2:59:14 PM</TimeStamp>
+        <ID>
+          <String>App Info</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>yzQUw0gSu97uw/TVOGMnGvdLHqs=6/16/2021 3:31:43 PM6/16/2021 2:59:14 PM</TimeStamp>
+        <ID>
+          <String>App Price Info</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>3DhwEOYEFT0DVn3gGqS93CS+4U4=6/16/2021 3:30:45 PM6/16/2021 2:59:14 PM</TimeStamp>
+        <ID>
+          <String>DWN Info</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>BmvfxJxikHcXeZb87bG4aMBE7kY=6/16/2021 3:05:27 PM6/16/2021 2:59:14 PM</TimeStamp>
+        <ID>
+          <String>Android Fact Info</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>dz6sPQHvfIReCzvIqRHQJ4hAZ7w=6/17/2021 8:52:08 AM6/16/2021 2:59:13 PMZUYgX+5fz6mO7NiDpmpTazDoqFM=6/16/2021 2:59:14 PM6/16/2021 2:59:13 PM</TimeStamp>
+        <ID>
+          <String>cube_Android_DWH</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>P26h/9LhnEm9V78fT+HhZWemc+0=6/16/2021 2:40:52 PM6/16/2021 2:40:52 PM</TimeStamp>
+      <ID>
+        <String>Android SSAS</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2021-06-17T03:24:00.18Z</LastDeployed>
+</DeploymentSnapshot>

@@ -1,0 +1,582 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="5c4f1c8f-3c36-474d-9403-603d74237277" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>cube_Android_DWH</ID>
+  <Name>cube_Android_DWH</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="20" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-5473" scrolltop="428" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="75" x="15558" y="11880" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Android_Fact_Info" left="5489" top="6395" logicalid="10" controlid="1" masterid="0" hint1="0" hint2="0" width="3016" height="4842" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000c80b0000ea120000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Android_Fact_Info" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="DWN_Info" left="10905" top="6606" logicalid="11" controlid="2" masterid="0" hint1="0" hint2="0" width="3069" height="4419" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000fd0b000043110000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_DWN_Info" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="DateDimension" left="4841" top="13637" logicalid="12" controlid="3" masterid="0" hint1="0" hint2="0" width="4313" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000d910000088130000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_DateDimension" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="App_Info" left="20" top="6606" logicalid="13" controlid="4" masterid="0" hint1="0" hint2="0" width="3069" height="4419" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000fd0b000043110000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_App_Info" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="App_Price_Info" left="5383" top="0" logicalid="14" controlid="5" masterid="0" hint1="0" hint2="0" width="3228" height="3995" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e00009c0c00009b0f0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_App_Price_Info" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="6598" top="10937" logicalid="15" controlid="6" masterid="0" hint1="0" hint2="0" width="799" height="3200" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[Android_Fact_Info-DateDimension]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="3" destid="1" sourceattachpoint="6" destattachpoint="5" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="6997" y="13637" />
+              <point x="6997" y="11237" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="2789" top="8416" logicalid="16" controlid="7" masterid="0" hint1="0" hint2="0" width="3000" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[Android_Fact_Info-App_Info]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="4" destid="1" sourceattachpoint="17" destattachpoint="18" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="3089" y="8815" />
+              <point x="4289" y="8815" />
+              <point x="4289" y="8816" />
+              <point x="5489" y="8816" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="6598" top="3496" logicalid="17" controlid="8" masterid="0" hint1="0" hint2="0" width="799" height="3199" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[Android_Fact_Info-App_Price_Info]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="5" destid="1" sourceattachpoint="5" destattachpoint="4" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="6997" y="3995" />
+              <point x="6997" y="6395" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="8205" top="8416" logicalid="18" controlid="9" masterid="0" hint1="0" hint2="0" width="3000" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[Android_Fact_Info-DWN_Info]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="2" destid="1" sourceattachpoint="16" destattachpoint="19" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="10905" y="8815" />
+              <point x="9705" y="8815" />
+              <point x="9705" y="8816" />
+              <point x="8505" y="8816" />
+            </connector>
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-5473</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>428</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>20</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>75</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Dimensions>
+    <Dimension dwd:design-time-name="710981f9-33fb-45f9-94ea-d194f49b4203">
+      <ID>Android Fact Info</ID>
+      <Name>Android Fact Info</Name>
+      <DimensionID>Android Fact Info</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="34cf5338-91fa-480a-b4cd-0e4b4d8a7e32">
+          <AttributeID>Fact ID</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="a1eaed82-9314-49f8-8116-2bb0cb929e39">
+          <AttributeID>Date Key</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="6a7357d8-ff9b-4899-b0f7-b824ab3c9742">
+          <AttributeID>App ID</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="edba7e70-8194-4ad0-8af0-a3615772b7c3">
+          <AttributeID>App Price ID</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="e1d03fdc-a14c-4287-8204-e3004bfdc97f">
+          <AttributeID>DWN Info ID</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="a44410f9-a7ce-4efd-b470-ac477d1f2481">
+          <AttributeID>Reviews</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="40c55d1d-6971-4770-9e82-707b6b84060a">
+          <AttributeID>Downloads</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="bd1ac2e4-4881-4f3d-88e2-ce43b8c364b6">
+          <AttributeID>App Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="7abc0b3e-6fe4-4669-aa07-0cf3c59feaca">
+          <AttributeID>Rating</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="31a40e42-ab90-4033-ab8d-91baf0415215">
+      <ID>Date Dimension</ID>
+      <Name>Date Dimension</Name>
+      <DimensionID>Date Dimension</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="05c5fd34-66be-4974-b4b5-4a98b5a1043d">
+          <AttributeID>Date Key</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="5df70e65-144c-4f5d-8a78-1c98ee8955e8">
+          <AttributeID>The Date</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="fe66a6b8-14ca-4550-b080-1038e1ab4557">
+          <AttributeID>The Day</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="d8a834e0-15e7-4f2b-b9cf-fd62c8817004">
+          <AttributeID>The Day Suffix</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="a9c9f291-a893-4fad-8796-de0dc623e77c">
+          <AttributeID>The Day Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="66403c6b-9c5c-47a9-b752-86bb58c53903">
+          <AttributeID>The Day Of Week</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="e5526aa9-b5dc-4288-8e4e-cdfa13ec2d8f">
+          <AttributeID>The Day Of Week In Month</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="172158c4-7b7b-4f5b-94ce-711dc6dbb0ba">
+          <AttributeID>The Day Of Year</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="c2ba57b5-b5c0-4b42-a76c-c5c4c51b9737">
+          <AttributeID>Is Weekend</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="48a51d3b-2fe4-47ee-b6ef-875f4e881ba7">
+          <AttributeID>The Week</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="9a47e0ae-8fdf-4445-a41d-fda4a82e2bcb">
+          <AttributeID>The IS Oweek</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="912ecfa7-57ce-4506-852d-d61f0563d010">
+          <AttributeID>The First Of Week</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="5417def6-2f64-4ab2-aa61-0a16557118c0">
+          <AttributeID>The Last Of Week</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="87f03a8d-c649-4dc5-85e1-efae80ea480f">
+          <AttributeID>The Week Of Month</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="a65e0ffb-0912-476a-aa32-0e53edd0dc8b">
+          <AttributeID>The Month</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="7034b035-3b6f-47a9-83a5-91f898579b00">
+          <AttributeID>The Month Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="085fcb3d-a740-4742-9379-4fc1b1eeca5b">
+          <AttributeID>The First Of Month</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="fe103ca7-7c83-4330-ac56-ff2c1fe063f4">
+          <AttributeID>The Last Of Month</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="cadb7bb8-bbc6-4e63-8433-4df683509c0d">
+          <AttributeID>The First Of Next Month</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="dc0cc7c1-698f-4de7-b928-5a6fa573b15d">
+          <AttributeID>The Last Of Next Month</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="2505d02f-c621-4859-8c38-d51000dcb2e4">
+          <AttributeID>The Quarter</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="03fc1061-7e6a-420f-b08f-0fd6038d406c">
+          <AttributeID>The First Of Quarter</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="b6e56b8d-5d20-40c0-9110-172fd2c83d84">
+          <AttributeID>The Last Of Quarter</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="02363c40-e288-49de-aa7b-f359adea2f8a">
+          <AttributeID>The Year</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="10e66dca-0dce-4ffa-80e5-afa373793863">
+          <AttributeID>The ISO Year</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="399faf89-18fe-448d-8193-ba87c55d196f">
+          <AttributeID>The First Of Year</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="60c5c6b8-1a5f-4202-a8dc-43f94dc3ca41">
+          <AttributeID>The Last Of Year</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="fa131bae-bb44-48cc-9155-52a06d86a231">
+          <AttributeID>Is Leap Year</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="9e72063c-5d19-40ef-a503-0d0ee6623584">
+          <AttributeID>Has53 Weeks</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="444510b5-7bf0-422d-9955-e81d046ac0b4">
+          <AttributeID>Has53ISO Weeks</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="7ee55f75-f506-4a8c-83a4-2b726752cc99">
+          <AttributeID>MMYYYY</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="772ca6ff-32ad-4188-ad50-ea381cf13f9c">
+          <AttributeID>Style101</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="22942c86-083d-49a5-8b20-5c7b4e2f2702">
+          <AttributeID>Style103</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="ac283b0c-f137-4334-839f-ebe594a45da1">
+          <AttributeID>Style112</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="c98c8883-734f-46b0-85f3-54f609ac63d3">
+          <AttributeID>Style120</AttributeID>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="fd655a64-b088-4126-920a-4cf3e7e3e19e">
+          <HierarchyID>Hierarchy</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+    </Dimension>
+    <Dimension dwd:design-time-name="3f3e49ec-6a18-47e3-b5d0-61971a4b5f41">
+      <ID>App Info</ID>
+      <Name>App Info</Name>
+      <DimensionID>App Info</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="7602186d-55dd-441f-ad2b-b19f3288199c">
+          <AttributeID>App ID</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="f367c884-130a-4c52-b02f-cfdf1301a250">
+          <AttributeID>App Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="c8b232a8-2ac7-4b30-907a-d41e506cb592">
+          <AttributeID>Fancy Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="60d91bea-64c5-4a21-880b-19a747612c27">
+          <AttributeID>Category</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="ef4887b5-6f29-4e81-9cb8-10f39abf9f2c">
+          <AttributeID>Company</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="6328aab0-56e4-4d03-84b9-dd4a25cf0c30">
+          <AttributeID>Base Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="56e974c1-a8f6-4590-aacf-a3ea8da9aec1">
+          <AttributeID>Inserted Date</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="2ae919fb-899a-4c51-8077-62a8c68b2176">
+          <AttributeID>Updated Date</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="a828fe04-df13-4bc0-9ff5-9cd0b133930c">
+      <ID>App Price Info</ID>
+      <Name>App Price Info</Name>
+      <DimensionID>App Price Info</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="7b201755-ac25-4588-bbdd-c399bace52eb">
+          <AttributeID>App Price ID</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="3e924f37-2cdb-4dce-bf78-e65d29e1a514">
+          <AttributeID>Low Price Item</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="e834441e-3562-4164-bcef-0bcc77e86a87">
+          <AttributeID>Top Price Item</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="b2e96c9f-6a4c-4d9e-a965-a02a1751fb52">
+          <AttributeID>Price</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="b06b33ca-359c-4a8f-875d-f93025d84a3d">
+          <AttributeID>App Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="3d919f42-4931-421b-bfd9-2ded36d78184">
+          <AttributeID>Inserted Date</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="60bcd2b7-cc15-4636-97f0-588b2dee4c42">
+          <AttributeID>Updated Date</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="2bbacd2d-26dc-44d5-b7b7-33e056ef428b">
+      <ID>DWN Info</ID>
+      <Name>DWN Info</Name>
+      <DimensionID>DWN Info</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="aaca2631-4f7b-4c11-936d-2c0db31ed1be">
+          <AttributeID>DWN Info ID</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="6145b311-6d32-4365-8808-b7b84c5caca7">
+          <AttributeID>Ads</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="6221fc0d-ef64-444e-ae03-1ba9c942f1cc">
+          <AttributeID>Age Rating</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="a0f37650-9828-490e-b554-3346f1159495">
+          <AttributeID>Game</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="85ffcbe7-6e34-4dcf-91f2-72dfd0d45caa">
+          <AttributeID>User Intract</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="69839d2e-5aa9-4acc-99d1-77540e5aee49">
+          <AttributeID>Inserted Date</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="53cd8ba9-8349-4e21-bb63-d80016bdb01b">
+          <AttributeID>Updated Date</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="9a3d9888-905b-4386-bc79-fa86e12ab13e">
+          <AttributeID>App Name</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+  </Dimensions>
+  <MeasureGroups>
+    <MeasureGroup dwd:design-time-name="dbf3a3f9-6dea-4c11-89bb-93fa2b8c774b">
+      <ID>Android Fact Info</ID>
+      <Name>Android Fact Info</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="1516f60c-1f86-46a8-aa73-cea7ddf9abca">
+          <ID>Downloads</ID>
+          <Name>Downloads</Name>
+          <Source dwd:design-time-name="ed488a8f-be2f-47f1-bf23-005aa8259c6d">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="f09b3c02-bc16-47f2-9dfe-38f61913364e">
+              <TableID>dbo_Android_Fact_Info</TableID>
+              <ColumnID>Downloads</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="b484d7ea-4bd6-4b9c-93d4-f53e2b9545c0">
+          <ID>Android Fact Info Count</ID>
+          <Name>Android Fact Info Count</Name>
+          <AggregateFunction>Count</AggregateFunction>
+          <Source dwd:design-time-name="df0d1157-a7d4-443c-919f-1028b0c731ad">
+            <DataType>Integer</DataType>
+            <DataSize>4</DataSize>
+            <Source xsi:type="RowBinding" dwd:design-time-name="7383a82c-8d1c-44fa-9caa-d43ea80c4d84">
+              <TableID>dbo_Android_Fact_Info</TableID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="DegenerateMeasureGroupDimension" dwd:design-time-name="91e07648-dc1c-4f44-954d-c8abfebc7209">
+          <CubeDimensionID>Android Fact Info</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="dc4f5850-385e-4373-9be2-df928c2b50bf">
+              <AttributeID>Fact ID</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="a4e58984-08f3-4e42-ac26-67e1d56d02db">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="92619c9d-1327-46e5-ad4f-f81ede963f5d">
+                    <TableID>dbo_Android_Fact_Info</TableID>
+                    <ColumnID>Fact_ID</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="ecc8624e-a333-4f60-9dc4-261a5ec565b9">
+          <CubeDimensionID>Date Dimension</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="eb9faf92-3739-4d6e-9265-66e77f14b671">
+              <AttributeID>Date Key</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="341f80a6-8cef-489d-88c3-890d0dd22b3a">
+                  <DataType>Integer</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="49495c79-f0e9-4699-936c-4e08c6f0f261">
+                    <TableID>dbo_Android_Fact_Info</TableID>
+                    <ColumnID>Date_Key</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="368fea58-40de-4740-9138-a3d1b24a75bc">
+          <CubeDimensionID>App Info</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="64a9599c-9a88-4454-ba4e-27d047e7d4ce">
+              <AttributeID>App ID</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="9433fdf9-28b9-40de-855b-4ff7e0a17563">
+                  <DataType>Integer</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="1c0a74bf-10d5-4258-9666-14b496e1b956">
+                    <TableID>dbo_Android_Fact_Info</TableID>
+                    <ColumnID>App_ID</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="305f5902-f076-40cd-90d3-ea2bacfa9895">
+          <CubeDimensionID>App Price Info</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="4cff0f50-b627-4289-8451-fdd2af018c8a">
+              <AttributeID>App Price ID</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="298132ec-83b9-413c-b2e6-a69301f58cb0">
+                  <DataType>Integer</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="a7febed2-cd9a-4f11-afa0-490e841c7da5">
+                    <TableID>dbo_Android_Fact_Info</TableID>
+                    <ColumnID>App_Price_ID</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="ca713e5c-b408-4a81-b2af-6459fec3141b">
+          <CubeDimensionID>DWN Info</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="9a544c0e-1703-44a4-a425-d6f41968afe2">
+              <AttributeID>DWN Info ID</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="cc9decc5-a1d3-467d-81b3-62860c31c394">
+                  <DataType>Integer</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="727b48aa-00f9-4d0a-af50-026d4e93b9ef">
+                    <TableID>dbo_Android_Fact_Info</TableID>
+                    <ColumnID>DWN_Info_ID</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+  </MeasureGroups>
+  <Source dwd:design-time-name="7d5ea05e-9648-4a55-84b9-bdca86d14825">
+    <DataSourceViewID>dsv_Android_DWH</DataSourceViewID>
+  </Source>
+  <Kpis>
+    <Kpi dwd:design-time-name="afe8bcf1-e06c-4492-9d8f-6a15269c6487">
+      <ID>KPI</ID>
+      <Name>KPI App Lowest Downloads</Name>
+      <AssociatedMeasureGroupID>Android Fact Info</AssociatedMeasureGroupID>
+      <Value>[Android Fact Info].[Downloads]</Value>
+      <Goal>[Android Fact Info].[Downloads] &lt; 50000</Goal>
+      <TrendGraphic>Standard Arrow</TrendGraphic>
+      <StatusGraphic>Gauge - Ascending</StatusGraphic>
+    </Kpi>
+  </Kpis>
+</Cube>
